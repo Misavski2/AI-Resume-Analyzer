@@ -9,6 +9,6 @@ namespace MyResume.Application.Interfaces
         void SaveResume(Resume resume);
         Resume GetResumeById(Guid resumeId);
         Resume GetResumeByHash(string resumeHash);
-        void UpdateScore(Guid resumeId, double newScore);
+        
     }
 }
